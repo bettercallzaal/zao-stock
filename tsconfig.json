@@ -1,1 +1,33 @@
-{"compilerOptions": {"target": "ES2020", "useDefineForClassFields": true, "lib": ["ES2020", "DOM", "DOM.Iterable"], "module": "ESNext", "skipLibCheck": true, "esModuleInterop": true, "allowSyntheticDefaultImports": true, "strict": true, "moduleResolution": "bundler", "resolveJsonModule": true, "declaration": true, "declarationMap": true, "sourceMap": true, "forceConsistentCasingInFileNames": true, "jsx": "react-jsx", "types": ["node"], "paths": {"@/*": ["./src/*"]}}, "include": ["src/**/*"], "exclude": ["node_modules", ".next"]}
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "jsx": "preserve",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "target": "es2017",
+    "useDefineForClassFields": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
