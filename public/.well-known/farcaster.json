@@ -1,0 +1,7 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEsInR5cGUiOiJjdXN0b2R5In0",
+    "payload": "eyJkb21haW4iOiJ6YW9mZXN0aXZhbHMuY29tIn0",
+    "signature": ""
+  }
+}
