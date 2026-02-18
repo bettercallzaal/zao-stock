@@ -1,1 +1,19 @@
-import type { Metadata } from 'next';\nimport './globals.css';\n\nexport const metadata: Metadata = {\n  title: 'ZAO Stock',\n  description: 'Farcaster-native music gathering',\n};\n\nexport default function RootLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return (\n    <html lang='en'>\n      <body>{children}</body>\n    </html>\n  );\n}
+import type { Metadata } from 'next';
+import './globals.css';
+
+export const metadata: Metadata = {
+  title: 'ZAO Stock',
+  description: 'Farcaster-native music gathering',
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang='en'>
+      <body>{children}</body>
+    </html>
+  );
+}
