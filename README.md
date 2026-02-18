@@ -1,6 +1,33 @@
-# ZAO Stock\n\nFarcaster-native, mobile-first event platform for ZAO Stock — a music gathering for musicians building with emerging tech.\n\n## Event Details\n\n- **Date**: October 3\n- **Location**: Franklin Street Parklet, Ellsworth, Maine\n- **Capacity**: 100–250 attendees\n- **Price**: $10 base ticket\n
-## Getting Started\n
-```bash\nnpm install\nnpm run dev\n```\n
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.\n
-## Tech Stack\n
-- **Frontend**: Next.js 16, React 19, TypeScript\n- **Database**: Supabase\n- **Farcaster Integration**: @farcaster/miniapp-sdk\n- **Deployment**: Vercel\n
+# ZAO Stock 🎸
+
+Farcaster-native, mobile-first event platform for ZAO-Stock music gathering.
+
+## Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to see the site.
+
+## Tech Stack
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS
+- Supabase (backend - coming)
+- Neynar (Farcaster integration - coming)
+
+## Event Details
+
+**ZAO-Stock** — October 3, Ellsworth Maine  
+Farcaster-native music gathering for musicians building with emerging tech.
+
+## Project Structure
+
+- `/src/app` — Next.js pages and layouts
+- `/src/components` — Reusable React components
+- `/src/lib` — Utilities (Farcaster, Supabase)
+- `/public` — Static assets
