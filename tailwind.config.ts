@@ -1,27 +1,2 @@
-import type { Config } from "tailwindcss";
-import daisyui from "daisyui";
-
-const config: Config = {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
-  theme: {
-    extend: {
-      colors: {
-        "zao-purple": "#7C3AED",
-        "zao-dark": "#1F2937",
-      },
-      fontFamily: {
-        sans: ["var(--font-sans)"],
-      },
-    },
-  },
-  plugins: [daisyui],
-  daisyui: {
-    themes: ["light", "dark"],
-  },
-};
-
-export default config;
+// This file is not used. All Tailwind configuration is in tailwind.config.cjs
+// Keeping this empty to prevent accidental loading by Next.js
