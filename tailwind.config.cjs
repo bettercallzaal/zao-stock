@@ -6,16 +6,7 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
-      colors: {
-        'zao-purple': '#8B5CF6',
-        'zao-dark': '#0f0f1e',
-        'zao-gray': '#1f1f2e',
-      },
-      fontFamily: {
-        sans: ['var(--font-sans)'],
-      },
-    },
+    extend: {},
   },
   plugins: [],
-}
+};
