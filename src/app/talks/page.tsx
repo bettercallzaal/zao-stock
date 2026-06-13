@@ -1,18 +1,18 @@
 export default function TalksPage() {
   const talks = [
     {
-      date: 'Mar 7, 2026',
-      title: 'COC Metaverse Concerts',
-      description: 'First Schelling Point roundtable on music + tech',
-      status: 'upcoming'
+      date: "Mar 7, 2026",
+      title: "COC Metaverse Concerts",
+      description: "First Schelling Point roundtable on music + tech",
+      status: "upcoming",
     },
     {
-      date: 'TBD (Monthly)',
-      title: 'More Roundtables Through July',
-      description: 'Pre-event discussions leading up to ZAOstock Oct 3',
-      status: 'scheduled'
+      date: "TBD (Monthly)",
+      title: "More Roundtables Through July",
+      description: "Pre-event discussions leading up to ZAOstock Oct 3",
+      status: "scheduled",
     },
-  ]
+  ];
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
@@ -40,10 +40,8 @@ export default function TalksPage() {
 
       <section className="mt-12 card border-zao-purple/50">
         <h2 className="text-2xl font-bold mb-4">Archive</h2>
-        <p className="text-gray-400">
-          Past talks, transcripts, and key insights coming soon.
-        </p>
+        <p className="text-gray-400">Past talks, transcripts, and key insights coming soon.</p>
       </section>
     </main>
-  )
+  );
 }

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
               </p>
               {/* TODO: confirm submission link - replace mailto with the lineup submission form when it exists */}
               <a
-                href="mailto:zaofestivals@gmail.com?subject=ZAOstock%20lineup%20submission"
+                href="mailto:info@thezao.com?subject=ZAOstock%20lineup%20submission"
                 className="inline-block text-sm font-semibold text-purple-100 underline underline-offset-4 hover:text-white"
               >
                 Submit to the lineup
@@ -39,7 +39,7 @@ export default function Home() {
               </p>
               {/* TODO: confirm submission link - replace mailto with the volunteer signup form when it exists */}
               <a
-                href="mailto:zaofestivals@gmail.com?subject=ZAOstock%20volunteer"
+                href="mailto:info@thezao.com?subject=ZAOstock%20volunteer"
                 className="inline-block text-sm font-semibold text-purple-100 underline underline-offset-4 hover:text-white"
               >
                 Get involved

@@ -1,11 +1,5 @@
 export default function StockEvent() {
-  const lineup = [
-    'Hurric4n3ike',
-    'DJANGO UU',
-    'CLEJAN',
-    'ATTABOTTY',
-    'Mr. Darius',
-  ]
+  const lineup = ["Hurric4n3ike", "DJANGO UU", "CLEJAN", "ATTABOTTY", "Mr. Darius"];
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
@@ -41,9 +35,7 @@ export default function StockEvent() {
         <p className="text-gray-300 mb-6">
           RSVP via Farcaster and be part of the community. Active contributors get exclusive perks.
         </p>
-        <button className="btn btn-primary">
-          Sign in with Farcaster & RSVP
-        </button>
+        <button className="btn btn-primary">Sign in with Farcaster & RSVP</button>
       </section>
 
       {/* Lineup */}
@@ -75,5 +67,5 @@ export default function StockEvent() {
         </div>
       </section>
     </main>
-  )
+  );
 }
