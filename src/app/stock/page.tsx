@@ -10,7 +10,11 @@ export default function StockEvent() {
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
       <section className="mb-12">
-        <h1 className="text-5xl font-bold mb-4 text-gradient">ZAO-STOCK</h1>
+        <p className="text-sm uppercase tracking-widest text-gray-400 mb-2">
+          ZAO Festivals presents
+        </p>
+        <h1 className="text-5xl font-bold mb-2 text-gradient">ZAOstock</h1>
+        <p className="text-sm text-gray-400 mb-4">by The ZAO</p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           <div className="card">
             <div className="text-sm text-gray-400">Date</div>

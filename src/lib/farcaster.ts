@@ -111,7 +111,7 @@ export function buildShareText(
       : itemType === "episode"
         ? "episode"
         : "connection";
-  return `${itemName}\n\nFrom the ZABAL x ETH Boulder knowledge graph (${typeLabel}) #onchaincreators`;
+  return `${itemName}\n\nShared from ZAOstock (${typeLabel})`;
 }
 
 /**

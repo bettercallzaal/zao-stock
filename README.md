@@ -1,6 +1,6 @@
-# ZAO Stock 🎸
+# ZAOstock
 
-Farcaster-native, mobile-first event platform for ZAO-Stock music gathering.
+Event site for ZAOstock - the flagship event from ZAO Festivals, the events arm of The ZAO. Farcaster-native, mobile-first music gathering for musicians building with emerging tech.
 
 ## Quick Start
 
@@ -22,8 +22,8 @@ Open [http://localhost:3000](http://localhost:3000) to see the site.
 
 ## Event Details
 
-**ZAO-Stock** — October 3, Ellsworth Maine  
-Farcaster-native music gathering for musicians building with emerging tech.
+**ZAO Festivals presents ZAOstock** - October 3, Ellsworth Maine  
+A Farcaster-native music gathering for musicians building with emerging tech. ZAOstock is the flagship event under ZAO Festivals, the incubated events arm of The ZAO.
 
 ## Project Structure
 

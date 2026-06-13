@@ -9,7 +9,7 @@ export default function TalksPage() {
     {
       date: 'TBD (Monthly)',
       title: 'More Roundtables Through July',
-      description: 'Pre-event discussions leading up to ZAO-STOCK Oct 3',
+      description: 'Pre-event discussions leading up to ZAOstock Oct 3',
       status: 'scheduled'
     },
   ]
@@ -19,7 +19,7 @@ export default function TalksPage() {
       <section className="mb-12">
         <h1 className="text-5xl font-bold mb-4 text-gradient">Schelling Point Talks</h1>
         <p className="text-lg text-gray-300">
-          Pre-event roundtables building momentum for ZAO-STOCK Oct 3
+          Pre-event roundtables building momentum for ZAOstock Oct 3
         </p>
       </section>
 

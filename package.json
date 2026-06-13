@@ -1,7 +1,7 @@
 {
   "name": "zao-stock",
   "version": "1.0.0",
-  "description": "Farcaster-native, mobile-first event platform for ZAO-Stock",
+  "description": "Event site for ZAOstock - ZAO Festivals presents ZAOstock, the flagship event of The ZAO",
   "private": true,
   "scripts": {
     "dev": "next dev",
