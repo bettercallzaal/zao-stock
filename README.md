@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **This repo has moved.** ZAOstock now lives at **[ZAODEVZ/ZAOstock](https://github.com/ZAODEVZ/ZAOstock)**. This repository is archived and read-only. All new work happens in the ZAODEVZ org.
+
+---
+
 # ZAOstock
 
 Event site for ZAOstock - the flagship event from ZAO Festivals, the events arm of The ZAO. Farcaster-native, mobile-first music gathering for musicians building with emerging tech.
