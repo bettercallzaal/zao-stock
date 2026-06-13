@@ -1,16 +1,14 @@
 export default function StockEvent() {
-  const lineup = [
-    'Hurric4n3ike',
-    'DJANGO UU',
-    'CLEJAN',
-    'ATTABOTTY',
-    'Mr. Darius',
-  ]
+  const lineup = ["Hurric4n3ike", "DJANGO UU", "CLEJAN", "ATTABOTTY", "Mr. Darius"];
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
       <section className="mb-12">
-        <h1 className="text-5xl font-bold mb-4 text-gradient">ZAO-STOCK</h1>
+        <p className="text-sm uppercase tracking-widest text-gray-400 mb-2">
+          ZAO Festivals presents
+        </p>
+        <h1 className="text-5xl font-bold mb-2 text-gradient">ZAOstock</h1>
+        <p className="text-sm text-gray-400 mb-4">by The ZAO</p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           <div className="card">
             <div className="text-sm text-gray-400">Date</div>
@@ -37,9 +35,7 @@ export default function StockEvent() {
         <p className="text-gray-300 mb-6">
           RSVP via Farcaster and be part of the community. Active contributors get exclusive perks.
         </p>
-        <button className="btn btn-primary">
-          Sign in with Farcaster & RSVP
-        </button>
+        <button className="btn btn-primary">Sign in with Farcaster & RSVP</button>
       </section>
 
       {/* Lineup */}
@@ -71,5 +67,5 @@ export default function StockEvent() {
         </div>
       </section>
     </main>
-  )
+  );
 }

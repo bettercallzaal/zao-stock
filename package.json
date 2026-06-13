@@ -1,7 +1,7 @@
 {
   "name": "zao-stock",
   "version": "1.0.0",
-  "description": "Farcaster-native, mobile-first event platform for ZAO-Stock",
+  "description": "Event site for ZAOstock - ZAO Festivals presents ZAOstock, the flagship event of The ZAO",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -16,8 +16,7 @@
     "tailwindcss": "^3.4.0",
     "postcss": "^8.4.0",
     "autoprefixer": "^10.4.0",
-    "@farcaster/miniapp-sdk": "^0.0.31",
-    "neynar-sdk": "^2.2.1",
+    "@supabase/ssr": "^0.12.0",
     "@supabase/supabase-js": "^2.38.0"
   },
   "devDependencies": {
